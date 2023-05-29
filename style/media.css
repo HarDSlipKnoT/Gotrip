@@ -1,0 +1,86 @@
+
+@media screen and (max-width: 910px) {
+  .aboutus__text-one {
+    font-size: 15px;
+  }
+
+  .aboutus__text-two {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .banner {
+    margin-bottom: 50px;
+  }
+
+  .aboutus__title {
+    margin-bottom: 20px;
+  }
+
+  .aboutus__img {
+    max-width: 70%;
+  }
+
+  .aboutus__content {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .aboutus__text-one {
+    max-width: 70%;
+    margin: 0 auto;
+  }
+
+  .aboutus__text-two {
+    max-width: 70%;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .banner {
+    height: 650px;
+  }
+
+  .banner__title {
+    font-size: 70px;
+    margin-bottom: 0;
+  }
+
+  .banner__text {
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+
+  .banner__btn {
+    padding: 10px 50px;
+  }
+
+  .catalog__item {
+    max-width: 50%;
+    margin-right: 0;
+  }
+
+  .catalog__list {
+    gap: 20px;
+    row-gap: 100px;
+  }
+}
+@media screen and (max-width: 680px) {
+  .nav {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .contacts__content {
+    flex-direction: column;
+    gap: 30px;
+  }
+}
+
+@media screen and (max-width: 572px) {
+  .catalog__item {
+    max-width: 100%;
+  }
+}
